@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>by classname</title>
+</head>
+<body>
+    <h1>the document object </h1>
+    <h2>the getelement.Byclassname()method</h2>
+    <p>change the text of the first element with class="example":</p>
+    <div class="example">element1</div>
+    <div class="example">element2</div>
+    <script>
+        const collection = document.getElementsByClassName("example");
+        collection [0].innerHTML="hello world";
+        collection[1].innerHTML="cpit"
+    </script>
+</body>
+</html>
